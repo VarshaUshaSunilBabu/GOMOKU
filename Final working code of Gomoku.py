@@ -34,9 +34,9 @@ class GomokuGame:
 
         # Load the dataset and images
         self.load_dataset(r"C:\Users\Downloads\gomocup2023results\Standard1\gomoku results\cleaned\path_to_save_cleaned_dataset.csv")
-        self.load_images("C:/Users/varsh/clean_board.png", 
-                         "C:/Users/varsh/black_stone.png", 
-                         "C:/Users/varsh/white_stone.png")
+        self.load_images("C:/Users/clean_board.png", 
+                         "C:/Users/black_stone.png", 
+                         "C:/Users/white_stone.png")
 
         # Initialize game settings
         self.player1_type = None
