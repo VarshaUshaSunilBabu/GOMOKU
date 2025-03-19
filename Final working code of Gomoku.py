@@ -33,7 +33,7 @@ class GomokuGame:
         self.game_id = 0  # Unique identifier for each game
 
         # Load the dataset and images
-        self.load_dataset(r"C:\Users\varsh\Downloads\gomocup2023results\Standard1\gomoku results\cleaned\path_to_save_cleaned_dataset.csv")
+        self.load_dataset(r"C:\Users\Downloads\gomocup2023results\Standard1\gomoku results\cleaned\path_to_save_cleaned_dataset.csv")
         self.load_images("C:/Users/varsh/clean_board.png", 
                          "C:/Users/varsh/black_stone.png", 
                          "C:/Users/varsh/white_stone.png")
